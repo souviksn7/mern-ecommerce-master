@@ -1,36 +1,31 @@
-# MERN Stack - Ecommerce
-> Ecommerce website built with the MERN stack with React Context API for state management, pure CSS for style
+# ShopIT E-commerce Project
 
-## Demo: https://devat-ecommerce.herokuapp.com/
+> Complete E-commerce site built with Node.js, React, Redux, Express, MongoDB
 
-## Author: Dev AT
-## Youtube tutorials: https://youtu.be/AjItjNc0bHA
+More about this project and course on Udemy. Course Name: [MERN Stack Full Ecommerce Site - Using React, Redux, Node.j](https://www.udemy.com/course/3678044)
 
-## Install dependencies for server 
-### `npm install`
+### Env Variables
 
-## Install dependencies for client
-### cd client ---> `npm install`
+Add your config variables values in the config.env file in backend/config folder as shown in the course.
 
-## Connect to your mongodb and add info in .env
+### Install Dependencies (Frontend)
 
-## Add your paypal client id in client/src/components/mainpages/cart/PaypalButton.js
+```
+cd frontend
+npm i
+```
 
-## Run the client & server with concurrently
-### `npm run dev`
+### Install Dependencies (Backend)
 
-## Run the Express server only
-### `npm run server`
+```
+npm i
+```
 
-## Run the React client only
-### `npm run client`
+### Seed Database
 
-### Server runs on http://localhost:5000 and client on http://localhost:3000
+Use the following commeand to put some dummy products in that database.
+Run it in the root folder.
 
-### User interface 
-
-![alt](https://res.cloudinary.com/devatchannel/image/upload/v1599568147/test/1_pe9ism.png)
-
-### Admin interface 
-
-![alt](https://res.cloudinary.com/devatchannel/image/upload/v1599568148/test/2_obw2r7.png)
+```
+npm run seeder
+```
